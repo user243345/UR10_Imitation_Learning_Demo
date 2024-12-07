@@ -1,6 +1,8 @@
 # UR10_Imitation_Learning_Demo
 This document contains a simple UR10 robot imitation learning example program, which implements the UR10 robot training an LSTM model using teleoperation-collected end-effector trajectories to autonomously draw circles, allowing the robot to start from different initial points and draw circles with a certain level of generalization.
 
+本文件中包含了一个简单的UR10机械臂模仿学习例程，例程实现了UR10机械臂利用遥操作采集到的末端位置轨迹来训练LSTM模型，实现UR10机械臂自主画圆，能够从不同的初始点开始画圆，模型具备一定的泛化能力
+
 数据集文件夹中包含一个圆形轨迹 共16条轨迹 每条轨迹用空行隔开 收集的数据有时间+期望三维位置+期望四元数+当前末端三维位置+当前四元数+当前关节角+当前夹爪角度
 
 核心是scripts文件夹 其中的说明如下：
